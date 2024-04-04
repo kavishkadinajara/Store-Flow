@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Home">
+  <grid id="27dc6" binding="homePanal" layout-manager="GridLayoutManager" row-count="2" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="7" width="897" height="488"/>
+    </constraints>
+    <properties>
+      <background color="-13619152"/>
+      <font name="Comic Sans MS" size="16" style="1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <vspacer id="902b6">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <grid id="49443" layout-manager="GridLayoutManager" row-count="8" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="25" left="25" bottom="25" right="25"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13619152"/>
+        </properties>
+        <border type="line"/>
+        <children>
+          <component id="bb8d7" class="javax.swing.JButton" binding="btnReciveLoan">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2792179"/>
+              <font name="Comic Sans MS" size="16" style="1"/>
+              <foreground color="-394759"/>
+              <text value="Loan Recive"/>
+            </properties>
+          </component>
+          <component id="5389" class="javax.swing.JButton" binding="btnAddLoanBorro">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2963431"/>
+              <font name="Comic Sans MS" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="Add Loan For Borrower"/>
+            </properties>
+          </component>
+          <component id="72fbd" class="javax.swing.JButton" binding="btnNewBorro">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14633285"/>
+              <enabled value="true"/>
+              <font name="Comic Sans MS" size="16" style="1"/>
+              <foreground color="-524805"/>
+              <text value="New Borrower"/>
+            </properties>
+          </component>
+          <vspacer id="19f6a">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="ccf75" class="javax.swing.JButton" binding="btnBorroItem">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13056503"/>
+              <font name="Comic Sans MS" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="Borrowed Item"/>
+            </properties>
+          </component>
+          <component id="4de14" class="javax.swing.JButton" binding="btnRepayment">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-8060722"/>
+              <font name="Comic Sans MS" size="16" style="1"/>
+              <foreground color="-394759"/>
+              <text value="Repayment"/>
+            </properties>
+          </component>
+          <component id="c3a84" class="javax.swing.JButton" binding="btnViewTransaction">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3145613"/>
+              <font name="Comic Sans MS" size="16" style="1"/>
+              <foreground color="-394759"/>
+              <text value="View Transaction"/>
+            </properties>
+          </component>
+          <component id="61215" class="javax.swing.JButton" binding="viewSearchBorrowerListButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11569094"/>
+              <font name="Comic Sans MS" size="16" style="1"/>
+              <foreground color="-524805"/>
+              <text value="View and Search Borrower List"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="d5c80" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Castellar" size="36" style="1"/>
+          <foreground color="-13530057"/>
+          <text value="Store Flow"/>
+        </properties>
+      </component>
+      <component id="a1127" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="shop1.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
